@@ -197,7 +197,6 @@
     <Content Include="Scripts\webviewer\lib\ui\build\style.css" />
     <Content Include="Scripts\webviewer\lib\ui\build\webviewer-ui.min.js" />
     <Content Include="Scripts\webviewer\lib\webviewer.min.js" />
-    <Content Include="Scripts\webviewer\license-key.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
