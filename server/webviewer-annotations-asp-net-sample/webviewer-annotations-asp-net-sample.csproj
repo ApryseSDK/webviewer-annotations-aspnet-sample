@@ -186,8 +186,6 @@
     <Content Include="Scripts\webviewer\lib\core\external\Promise.js" />
     <Content Include="Scripts\webviewer\lib\core\external\rawinflate.js" />
     <Content Include="Scripts\webviewer\lib\core\office\OfficeWorker.js" />
-    <Content Include="Scripts\webviewer\lib\core\pdf\lean\PDFNetC.js" />
-    <Content Include="Scripts\webviewer\lib\core\pdf\lean\PDFNetCWasm.js" />
     <Content Include="Scripts\webviewer\lib\core\pdf\PDFNet.js" />
     <Content Include="Scripts\webviewer\lib\core\pdf\pdfnet.res" />
     <Content Include="Scripts\webviewer\lib\core\pdf\PDFworker.js" />
@@ -221,10 +219,8 @@
     <Content Include="Scripts\webviewer\lib\core\office\WebOfficeWorkerWasm.br.wasm" />
     <Content Include="Scripts\webviewer\lib\core\pdf\lean\PDFNetC.gz.js.mem" />
     <Content Include="Scripts\webviewer\lib\core\pdf\lean\PDFNetC.gz.mem" />
-    <Content Include="Scripts\webviewer\lib\core\pdf\lean\PDFNetC.js.mem" />
     <Content Include="Scripts\webviewer\lib\core\pdf\lean\PDFNetCWasm.br.js.mem" />
     <Content Include="Scripts\webviewer\lib\core\pdf\lean\PDFNetCWasm.br.wasm" />
-    <Content Include="Scripts\webviewer\lib\core\pdf\lean\PDFNetCWasm.wasm" />
     <Content Include="Scripts\webviewer\lib\core\pdf\lean\PDFWorker.nmf" />
     <Content Include="Scripts\webviewer\lib\core\pdf\lean\PDFWorker.pexe" />
     <Content Include="Scripts\webviewer\lib\core\pdf\lean\PDFWorkerSubzero.nmf" />
