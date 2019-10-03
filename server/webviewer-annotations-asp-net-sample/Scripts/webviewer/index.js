@@ -33,8 +33,10 @@ WebViewer({
   // Load annotations when document is loaded
   instance.docViewer.on('documentLoaded', function() {
     loadXfdfString(DOCUMENT_ID).then(function(xfdfString) {
-      var annotations = annotManager.importAnnotations(xfdfString);
-      annotManager.drawAnnotationsFromList(annotations);
+	annotManager.importAnnotations(xfdfString)
+	  .then(function(annotations) {
+		annotManager.drawAnnotationsFromList(annotations);
+	  });
     });
   });
 });
